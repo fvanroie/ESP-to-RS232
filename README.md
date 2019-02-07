@@ -12,6 +12,8 @@ Now it is time to integrate the TV with other Home Automation devices using MQTT
 
 ## Schema
 
+![KiCad Schema](kicad-schema.png)
+
 There are 2 main components in the design: 
 - The ESP-12F microcontroller that will run the Tasmota software and connect to the controller via MQTT.
 - A MAX3232 to convert the TTL of the ESP to RS232 levels that the TV expects.
@@ -27,6 +29,8 @@ After some investigation, we found that the problem was with the compiler versio
 Switching to the Arduino 2.3 compiler, the software serial connection worked flawlessly. Hence, we just needed to re-compile the Tasmota software and the issue was gone.
 
 ## PCB design
+
+![KiCad Thumbnail](kicad-thumbnail.png)
 
 A custom PCB was designed for this project using KiCad. It includes all the components on a minimal footprint of 30 by 31mm, while still exposing some extra GPIOs for additional functionality.
 Special care was taken to leave the antenna area of the ESP free of any components and copper traces, as recommended by the ESP datasheet.

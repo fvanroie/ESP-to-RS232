@@ -35,7 +35,7 @@ There is a female DB9 connector, so the small adapter can be plugged directly in
 
 ## 3D Model
 
-https://skfb.ly/6GKCE
+[![3D Model Thumbnail](3dmodel-thumb.png)](https://skfb.ly/6GKCE)
 
 Here is a design of a 3D printed case for the ESP to RS232 adapter. Due to it's small size, the end result is of a comparable size to a regular serial connector.
 

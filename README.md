@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is an ESP to RS232 adapter that can communicate with a serial device using the RS232 protocol.
+This is an ESP to RS232 adapter that can communicate with a RS232 serial device using the MQTT protocol.
 The functionality depends on the software running on the ESP-12 module. Most firmware, like Tasmota, ESPeasy and ESPurna include a software serial bride mode.
 
 ## Goal

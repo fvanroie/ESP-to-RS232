@@ -1,5 +1,7 @@
+<img align="right" width="250" height="189" src="esp-rs232-3d.png">
+
+
 # ESP-to-RS232
-<img align="right" width="200" height="152" src="esp-rs232-3d.png">
 
 ## Introduction
 

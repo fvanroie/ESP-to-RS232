@@ -20,6 +20,8 @@ There are 2 main components in the design:
 
 ## Prototype
 
+![Protoboard](prototype.jpg)
+
 A prototype was created to test the schema and provide proof-of-concept of the functionality. The circuit was first tested on an old laptop before connecting it to the TV, just to be safe.
 
 We experienced some issues using the stock Tasmota 6.4.1 firmware. The software serial bridge seemed to introduce some random noise into the transmitted data, resulting in scrambled messages.
@@ -47,9 +49,11 @@ Here is a design of a 3D printed case for the ESP to RS232 adapter. Due to it's 
 
 The actual PCBs have been fabricated by Aisler.net as they can also provide the stencils needed for easy soldering of the SMT components.
 
+![Reflow Front](reflowfront.jpg)
 
 The final board looks like this:
 
 
 When mounted in the case, the result turned out quite nice:
 
+![Final Result](finalresult.jpg)

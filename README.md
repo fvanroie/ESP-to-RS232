@@ -47,7 +47,7 @@ Here is a design of a 3D printed case for the ESP to RS232 adapter. Due to it's 
 
 ## PCBs
 
-The actual PCBs have been fabricated by Aisler.net as they can also provide the stencils needed for easy soldering of the SMT components.
+The actual PCBs have been fabricated by [aisler.net](https://aisler.net/p/YJRYRSDY). They can also fabricated the stencils needed for easy soldering of the small components. Here is the front after reflowing the SMT parts:
 
 ![Reflow Front](reflowfront.jpg)
 

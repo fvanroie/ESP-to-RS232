@@ -30,6 +30,9 @@ The TV would not acknowledge malformed commands and they would have to be resent
 After some investigation, we found that the problem was with the compiler version. Using the Arduino 2.4 compiler (the default for pre-build Tasmota binaries) the issue appeared.
 Switching to the Arduino 2.3 compiler, the software serial connection worked flawlessly. Hence, we just needed to re-compile the Tasmota software and the issue was gone.
 
+## Bill of Materials
+
+
 ## PCB design
 
 ![KiCad Thumbnail](kicad-thumbnail.png)
@@ -43,7 +46,9 @@ There is a female DB9 connector, so the small adapter can be plugged directly in
 
 [![3D Model Thumbnail](3dmodel-thumb.png)](https://skfb.ly/6GKCE)
 
-Here is a design of a 3D printed case for the ESP to RS232 adapter. Due to it's small size, the end result is of a comparable size to a regular serial connector.
+Here is the 3D model that KiCad created. It is very close to reality, provided you have the 3D models of all the components. KiCad comes with a vast library of components and you can download additional models from sites like grabcad.com.
+
+While designing the 3D preview of the PCB consantly gets updated and you can work on the details until you are happy with the design.
 
 ## PCBs
 

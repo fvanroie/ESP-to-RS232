@@ -3,7 +3,7 @@
 ## Introduction
 
 This is an ESP to RS232 adapter that can communicate with a RS232 serial device using the MQTT protocol.
-The functionality depends on the software running on the ESP-12 module. Most firmware, like Tasmota, ESPeasy and ESPurna include a software serial bride mode.
+The functionality depends on the software running on the ESP-12 module. Most firmware, like [Tasmota](https://github.com/arendst/Sonoff-Tasmota), [ESPeasy](https://github.com/letscontrolit/ESPEasy) and [ESPurna](https://github.com/xoseperez/espurna/wiki/Hardware) include a software serial bride mode.
 
 ## Goal
 
@@ -15,7 +15,7 @@ Now it is time to integrate the TV with other Home Automation devices using MQTT
 ![KiCad Schema](kicad-schema.png)
 
 There are 2 main components in the design: 
-- The ESP-12F microcontroller that will run the Tasmota software and connect to the controller via MQTT.
+- The ESP-12F microcontroller that will run the [Tasmota](https://github.com/arendst/Sonoff-Tasmota) software and connect to the controller via MQTT.
 - A MAX3232 to convert the TTL of the ESP to RS232 levels that the TV expects.
 
 ## Prototype
@@ -47,7 +47,7 @@ Here is a design of a 3D printed case for the ESP to RS232 adapter. Due to it's 
 
 ## PCBs
 
-The actual PCBs have been fabricated by [aisler.net](https://aisler.net/p/YJRYRSDY). They can also fabricated the stencils needed for easy soldering of the small components. Here is the front after reflowing the SMT parts:
+The actual PCBs have been fabricated by [aisler.net](https://aisler.net). They can also fabricated the stencils needed for easy soldering of the small components. Here is the front after reflowing the SMT parts:
 
 ![Reflow Front](reflowfront.jpg)
 

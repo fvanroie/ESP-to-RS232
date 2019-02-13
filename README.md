@@ -33,6 +33,17 @@ Switching to the Arduino 2.3 compiler, the software serial connection worked fla
 
 ## Bill of Materials
 
+| Part ID | Manufacturer | Part Number | Description |
+| R1 & R2 |  |  |  |
+| C1 - C6 |  |  |  |
+| C7 - C8 |  |  |  |
+| J1 |  | Micro USB |  |
+| J2 | Mouser | 571-2311765-1 | D-Sub Standard Connectors AMPL REC, HD20 R/A, 9P, S/L, .318 |
+| J3 | Amphenol FCI | 10129378-906001BLF | PIN HEADER SR VT TH 1X6 |
+| U1 | Texas Instruments | LM1117MPX-3.3/NOPB  | LDO LINEAR Voltage Regulators 800MA SOT-223-4  |
+| U2 | Maxim Integrated | MAX3232CSE+ | RS-232 Interface IC 3-5.5V 235kbps Transceiver |
+| U3 | Espressif  | ESP-12F | ESP-12F |
+| SW1 | ALPS | SKSCPCE010 | Small Turtle Switch |
 
 ## PCB design
 

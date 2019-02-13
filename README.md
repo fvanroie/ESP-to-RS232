@@ -34,6 +34,7 @@ Switching to the Arduino 2.3 compiler, the software serial connection worked fla
 ## Bill of Materials
 
 | Part ID | Manufacturer | Part Number | Description |
+|-----|-----|-----|-----|
 | R1 & R2 |  |  |  |
 | C1 - C6 |  |  |  |
 | C7 - C8 |  |  |  |

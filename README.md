@@ -35,16 +35,16 @@ Switching to the Arduino 2.3 compiler, the software serial connection worked fla
 
 | Part ID | Manufacturer | Part Number | Description |
 |-----|-----|-----|-----|
-| R1 & R2 |  | 10k | Resistor 10k Ohm SMD 1206 |
-| C1 - C6 |  | 0.1µF | Capacitor 0.1µF SMD 0806 |
-| C7 - C8 |  | 10µF | Capacitor 10µF SMD 0806 |
+| R1-R2 | Bourns | CR1206-JW-103ELF | 1206 10K Ohm 5% 1/4W Thick Film Resistor |
+| C1-C6 | Samsung | CL21F104ZBCNNNC | 0805 100nF 50 V -20/+80% Tolerance Multilayer Ceramic Capacitor  |
+| C7-C8 | Samsung | CL21F106ZQFNNNE | 0805 10uF 6.3 V -20/+80% Tolerance Multilayer Ceramic Capacitor |
 | J1 | AliExpress | Micro USB |  |
-| J2 | Mouser | 571-2311765-1 | D-Sub Standard Connectors AMPL REC, HD20 R/A, 9P, S/L, .318 |
-| J3 | Amphenol FCI | [10129378-906001BLF](https://www.amphenol-icc.com/econostik-10129378906001blf.html) | PIN HEADER SR VT TH 1X6 |
+| J2 | TE Connectivity | 2311765-1 | Conn D Subminiature RCP 9 POS 9 Shell Size 2.77mm Solder RA THT |
+| J3 | Würth Elektronik | [61300611121](https://www.amphenol-icc.com/econostik-10129378906001blf.html) | THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, 1x6 pins |
 | U1 | Texas Instruments | [LM1117MPX-3.3/NOPB](http://www.ti.com/product/lm1117) | LDO LINEAR Voltage Regulators 800MA SOT-223-4  |
 | U2 | Maxim Integrated | [MAX3232CSE+](https://www.maximintegrated.com/en/products/interface/transceivers/MAX3232.html) | RS-232 Interface IC 3-5.5V 235kbps Transceiver |
-| U3 | AI Thinker  | ESP-12F | ESP-12F |
-| SW1 | ALPS | [SKSCPCE010](https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKSC/SKSCPCE010.html) | Low-profile Side Push Turtle Switch |
+| U3 | AI Thinker  | ESP-12F | ESP-12F | Esp8266 Esp-12 Wifi Module, 2.484Ghz, 9 I/O Port
+| SW1 | ALPS | [SKSCPCE010](https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKSC/SKSCPCE010.html) |  Switch Tactile N.O. SPST Button Gull Wing 0.05A 12VDC 1.6N SMD |
 
 ## PCB design
 

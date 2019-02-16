@@ -35,15 +35,15 @@ Switching to the Arduino 2.3 compiler, the software serial connection worked fla
 
 | Part ID | Manufacturer | Part Number | Description |
 |-----|-----|-----|-----|
-| R1 & R2 |  |  |  |
-| C1 - C6 |  |  |  |
-| C7 - C8 |  |  |  |
-| J1 |  | Micro USB |  |
+| R1 & R2 |  | 10k | Resistor 10k Ohm SMD 1206 |
+| C1 - C6 |  | 0.1µF | Capacitor 0.1µF SMD 0806 |
+| C7 - C8 |  | 10µF | Capacitor 10µF SMD 0806 |
+| J1 | AliExpress | Micro USB |  |
 | J2 | Mouser | 571-2311765-1 | D-Sub Standard Connectors AMPL REC, HD20 R/A, 9P, S/L, .318 |
 | J3 | Amphenol FCI | [10129378-906001BLF](https://www.amphenol-icc.com/econostik-10129378906001blf.html) | PIN HEADER SR VT TH 1X6 |
 | U1 | Texas Instruments | [LM1117MPX-3.3/NOPB](http://www.ti.com/product/lm1117) | LDO LINEAR Voltage Regulators 800MA SOT-223-4  |
 | U2 | Maxim Integrated | [MAX3232CSE+](https://www.maximintegrated.com/en/products/interface/transceivers/MAX3232.html) | RS-232 Interface IC 3-5.5V 235kbps Transceiver |
-| U3 | Espressif  | ESP-12F | ESP-12F |
+| U3 | AI Thinker  | ESP-12F | ESP-12F |
 | SW1 | ALPS | [SKSCPCE010](https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKSC/SKSCPCE010.html) | Low-profile Side Push Turtle Switch |
 
 ## PCB design
